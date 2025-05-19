@@ -276,7 +276,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           children: [
                             Text(
                               post['title'],
-                              style: const TextStyle(fontSize: 16),
+                              style: const TextStyle(fontSize: 15),
                             ),
                             SizedBox(height: 5),
                             Wrap(

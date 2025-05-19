@@ -125,7 +125,7 @@ final List<Map<String, dynamic>> posts = [
       },
     ],
   },
-  {
+  /* {
     'id': 'p03',
     'title': '겨울 교복 나눔',
     'image': 'https://via.placeholder.com/150',
@@ -668,5 +668,5 @@ final List<Map<String, dynamic>> posts = [
         'sellerId': 'u10',
       },
     ],
-  },
+  }, */
 ];

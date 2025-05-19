@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../../widgets/title_bar.dart';
 import 'ontrading_screen.dart';
+import 'endtrading_screen.dart';
 
 class TransactionScreen extends StatefulWidget {
   const TransactionScreen({super.key});
@@ -17,7 +18,7 @@ class _TransactionScreenState extends State<TransactionScreen> {
     return DefaultTabController(
       length: 2,
       child: Scaffold(
-        appBar: TitleBar(title: '거래상황', isIcon: false),
+        appBar: TitleBar(title: '거래상황'),
         body: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
@@ -33,10 +34,9 @@ class _TransactionScreenState extends State<TransactionScreen> {
               ),
             ),
             Flexible(
-              child: SingleChildScrollView(
-                child:
-                    _selectedIndex == 0 ? null : null, // 여기에 보여줄 페이지 클래스 커스텀하기
-              ),
+              child: _selectedIndex == 0 
+                ? OnTradingScreen()
+                : EndTradingScreen(),
             ),
           ],
         ),

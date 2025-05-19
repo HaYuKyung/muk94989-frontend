@@ -141,7 +141,7 @@ class ItemDetailScreen extends StatelessWidget {
                       width: 1,
                     ),
                   ),
-                  elevation: 1,
+                  elevation: 0,
                   color: isSold ? Colors.grey[200] : Colors.white,
                   child: Padding(
                     padding: const EdgeInsets.all(12.0),

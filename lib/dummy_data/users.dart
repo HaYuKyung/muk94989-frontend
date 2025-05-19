@@ -11,7 +11,7 @@ final List<Map<String, dynamic>> users = [
     'phone': '010-1220-1234',
     'kakao': 'https://open.kakao.com/o/sample2',
   },
-  {
+  /* {
     'id': 'u03',
     'name': '30기 사용자3',
     'phone': '010-1230-5678',
@@ -58,5 +58,5 @@ final List<Map<String, dynamic>> users = [
     'name': '31기 사용자10',
     'phone': '010-1300-4444',
     'kakao': 'https://open.kakao.com/o/sample10',
-  },
+  }, */
 ];
